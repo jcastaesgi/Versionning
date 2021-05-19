@@ -2,7 +2,7 @@
 # PROJET PYTHON
 
 
-## Récupération du projet
+## Récupération du projet en local
 
 Sur votre PC, se positionner dans un dossier prévu pour ce projet.
 
