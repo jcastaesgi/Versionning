@@ -20,3 +20,5 @@ git checkout -b ma_branch
 ```
 
 Enjoy your code :)
+
+PS : pensez à commenter votre code !
