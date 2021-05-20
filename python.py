@@ -38,3 +38,24 @@ def retroactive_resolution(coefficients: np.matrix, vector: np.ndarray) -> np.nd
         x[row, 0] = (vector[row] - sum) / coefficients[row, row]
 
     return x
+
+
+def gaussian_elimination(coefficients: np.matrix, vector: np.ndarray) -> np.ndarray:
+    """
+    This function performs Gaussian elimination method
+    Examples:
+        1x1 - 4x2 - 2x3 = -2        1x1 + 2x2 = 5
+        5x1 + 2x2 - 2x3 = -3        5x1 + 2x2 = 5
+        1x1 - 1x2 + 0x3 = 4
+    >>> gaussian_elimination([[1, -4, -2], [5, 2, -2], [1, -1, 0]], [[-2], [-3], [4]])
+    array([[ 2.3 ],
+           [-1.7 ],
+           [ 5.55]])
+    >>> gaussian_elimination([[1, 2], [5, 2]], [[5], [5]])
+    array([[0. ],
+           [2.5]])
+    """
+    # coefficients must to be a square matrix so we need to check first
+    rows, columns = np.shape(coefficients)
+    if rows != columns:
+        return np.array((), dtype=float)
