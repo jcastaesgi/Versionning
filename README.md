@@ -20,9 +20,7 @@ git checkout -b ma_branch
 ```
 
 Enjoy your code :)
-<<<<<<< HEAD
+
 Ajout d'une ligne
-=======
 
 PS : pensez à commenter votre code !
->>>>>>> 2e541e504619554650095eaade1f7fd3c414b454
