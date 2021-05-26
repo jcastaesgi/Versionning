@@ -18,9 +18,6 @@ Créez une branche (ex : jcasta):
 ```
 git checkout -b ma_branch
 ```
-
 Enjoy your code :)
-
-Ajout d'une ligne
 
 PS : pensez à commenter votre code !
